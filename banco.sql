@@ -1,8 +1,9 @@
 CREATE TABLE dados (
-    AlunoID int,
-    Nome varchar(50),
-    Sobrenome varchar(50),
-    Endereco varchar(150),
-    Cidade varchar(50),
-    Host varchar(50)
+    PacienteID int,
+    Nome varchar(80),
+    Sobrenome varchar(80),
+    Endereco varchar(200),
+    Cidade varchar(100),
+    SUS varchar(15)
 );
+--alterei para criar um banco de dados de pacientes
